@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  
+  #app {
+    text-align: center;
+    background-color: #D3D3D3;
+    width: 600px;
+    align-items: center;
+    margin:auto;
+    border-radius: 8px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: rgb(208, 0, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 7px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  li span {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 17px;
+    color: #333333;
+  }
+  
+  li button {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
